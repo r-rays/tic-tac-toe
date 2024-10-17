@@ -8,6 +8,17 @@ body {
   padding: 0;
 }
 
+.game {
+  display: flex;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 105px;
+  height: 105px;
+}
+
 .square {
   width: 35px;
   height: 35px;
@@ -16,13 +27,6 @@ body {
   font-size: 1.2rem;
   font-weight: bold;
   cursor: pointer;
-}
-
-.board {
-  display: flex;
-  flex-wrap: wrap;
-  width: 105px;
-  height: 105px;
 }
 
 .status {
